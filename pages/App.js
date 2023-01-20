@@ -5,7 +5,7 @@ import { useState } from 'react';
 import { initializeApp } from "firebase/app";
 //import { getAnalytics } from "firebase/analytics";
 import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
-
+import { signIn,useSession,signOut,getSession } from "next-auth/react"
 
 const firebaseConfig = {
   apiKey: process.env.APP_API_KEY,
@@ -22,6 +22,7 @@ const app = initializeApp(firebaseConfig);
 //const analytics = getAnalytics(app);
 
 const App = () => {
+  const {data:session,status} =useSession();
   const [userInput1, setUserInput1] = useState('');
   const [userInput2, setUserInput2] = useState('');
   const [userInput4, setUserInput4] = useState('');
@@ -233,8 +234,11 @@ const App = () => {
   const onUserChangedText32 = (event) => {
     setUserInput32(event.target.value);
   };
-
-  return (
+  if(status==='authenticated')
+  {
+      return(
+          <div>
+              <p>Welcome {session.user.name}</p>
     <div className="root">
       <Head>
         <title>WizCV</title>
@@ -243,7 +247,11 @@ const App = () => {
         <div className="header">
           <div className="header-title">
             <h1>Genera tu CV repido, sólo pega tus datos</h1>
+            <div>
+            <button onClick={() => signOut()}>Sign out</button>
+            </div>
           </div>
+          
           <div className="header-subtitle">
           <h2>Descarga el CV generado, sólo pega en tu formato favorito y listo.</h2>
           </div>
@@ -300,6 +308,7 @@ const App = () => {
             </div>
           )}
       </div>
+      
       <div className="badge-container grow">
         <a href="https://www.linkedin.com/in/ricardo-ivan-sandoval/" target="_blank" rel="noreferrer"/>
           <div className="badge">
@@ -309,7 +318,19 @@ const App = () => {
         </div>
       </div>
     </div>
-  );
+  
+          </div>
+      )
+  }
+  else
+  {      return(
+      <div>
+          <p>            You are not signed in.</p>
+          <button onClick={() => signIn()}>Sign in</button>
+      </div>)
+  }
+
+
 };
 
 export default App;
