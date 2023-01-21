@@ -7,14 +7,14 @@ const login =()=>{
   if (session) {
     return (
       <>
-        Signed in as {session.user.email} <br />
-        <button onClick={() => signOut()}>Sign out</button>
+        <p>Signed in as {session.user.email}</p> <br />
+        <button onClick={() => signOut({callbackUrl: 'https://wizcv.xyz'})}>Sign out</button>
       </>
     )
   }
   return (
     <>
-      Not signed in <br />
+      <p>Not signed in</p> <br />
       <button onClick={() => signIn()}>Sign in</button>
     </>
   )

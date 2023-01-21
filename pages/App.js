@@ -234,11 +234,15 @@ const App = () => {
   const onUserChangedText32 = (event) => {
     setUserInput32(event.target.value);
   };
+ 
   if(status==='authenticated')
   {
       return(
           <div>
-              <p>Welcome {session.user.name}</p>
+            <p>Welcome {session.user.name}</p>
+            <div>
+            <button onClick={() => signOut()}>Sign out</button>
+            </div>
     <div className="root">
       <Head>
         <title>WizCV</title>
@@ -246,14 +250,11 @@ const App = () => {
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>Genera tu CV repido, sólo pega tus datos</h1>
-            <div>
-            <button onClick={() => signOut()}>Sign out</button>
-            </div>
+            <h1>Genera tu CV de inmediato, sólo pega tus datos</h1>
           </div>
           
           <div className="header-subtitle">
-          <h2>Descarga el CV generado, sólo pega en tu formato favorito y listo.</h2>
+          <h2>Descarga el CV generado, modifica y pega en tu formato favorito. Listo!</h2>
           </div>
         </div>
         <div className="prompt-container">
@@ -325,7 +326,7 @@ const App = () => {
   else
   {      return(
       <div>
-          <p>            You are not signed in.</p>
+          <p> You are not signed in yet!</p>
           <button onClick={() => signIn()}>Sign in</button>
       </div>)
   }
