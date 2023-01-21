@@ -1,7 +1,8 @@
 import NextAuth from "next-auth/next"
 import  GoogleProvider from "next-auth/providers/google"
 
-export default NextAuth  ({
+export default NextAuth  ({ 
+  site: process.env.NEXTAUTH_URL,
   // Configure one or more authentication providers
   providers: [
     GoogleProvider({
