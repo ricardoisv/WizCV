@@ -225,7 +225,7 @@ textarea {
 }
 
 .badge-container a {
-    border-bottom-width: 1px;
+    border-bottom-width: px;
     border-color: rgba(255, 255, 255, 0.1);
     border-left-width: 1px;
     border-right-width: 1px;
@@ -238,7 +238,7 @@ textarea {
     transform-origin: 50% 50% 0px;
     font-size: 14px;
     font-weight: 700;
-    letter-spacing: 0px;
+    letter-spacing: -0.5px;
     line-height: 1em;
     color: #fff;
     padding: 12px;
