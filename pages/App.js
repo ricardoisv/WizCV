@@ -3,8 +3,8 @@ import Image from 'next/image';
 import LinkedIn from '../assets/LinkedIn.png';
 import { useState } from 'react';
 import { initializeApp } from "firebase/app";
-//import { getAnalytics } from "firebase/analytics";
-//import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
+import { getAnalytics } from "firebase/analytics";
+import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 import { signIn,useSession,signOut,getSession } from "next-auth/react"
 
 const firebaseConfig = {
