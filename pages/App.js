@@ -325,8 +325,8 @@ const App = () => {
   }
   else
   {      return(
-      <div>
-          <p> You are not signed in yet!</p>
+      <div className="root">
+          <p className="header"> You are not signed in yet!</p>
           <button onClick={() => signIn()}>Sign in</button>
       </div>)
   }
