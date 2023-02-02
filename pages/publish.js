@@ -11,7 +11,7 @@ const Publish = () => {
  // {
     return(
         <div>
-            { <p>Welcome {session.user.name}</p> }
+            {/* { <p>Welcome {session.user.name}</p> } */}
         <div>
             <button onClick={() => signOut()}>Sign out</button>
         </div>
