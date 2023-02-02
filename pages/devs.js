@@ -12,9 +12,9 @@ const Devs = () => {
     return(
         <div>
             {/* <p>Welcome {session.user.name}</p> */}
-        <div>
+        {/* <div>
             <button onClick={() => signOut()}>Sign out</button>
-        </div>
+        </div> */}
     <div className="root">
       <Head>
         <title>WizCV</title>
