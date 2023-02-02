@@ -22,7 +22,7 @@ const Devs = () => {
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>Send your LinkedIn profile and get job offers</h1>
+            <h1>Send your LinkedIn profile and get matching job offers on your email</h1>
             <h2>BETA version, swiping coming soon!</h2>
           </div>
         </div>
