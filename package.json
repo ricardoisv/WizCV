@@ -14,7 +14,6 @@
     "@emotion/styled": "^11.10.5",
     "@react-pdf-viewer/core": "^3.11.0",
     "@react-pdf-viewer/default-layout": "^3.11.0",
-    "analytics-node": "^6.2.0",
     "eslint": "8.27.0",
     "eslint-config-next": "13.0.3",
     "firebase": "^9.15.0",
@@ -32,7 +31,7 @@
     "typewriter": "^8.0.10",
     "typewriter-effect": "^2.19.0"
   },
-  "browser": {
+  "browser": {  
     "fs": false,
     "os": false,
     "path": false
