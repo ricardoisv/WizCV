@@ -4,7 +4,7 @@ import LinkedIn from '../assets/LinkedIn.png';
 import { signIn,useSession,signOut,getSession } from "next-auth/react"
 
 const Devs = () => {
-  const {data:session,status} =useSession();
+//  const {data:session,status} =useSession();
   
  
  // if(status==='authenticated')
