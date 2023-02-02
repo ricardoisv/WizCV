@@ -22,8 +22,8 @@ const Publish = () => {
       <div className="container">
         <div className="header">
           <div className="header-title">
-          <h1>Upload the job offer to match with candidates</h1>
-          <h2>BETA version, automatization coming soon!</h2>
+          <h1>Send the job offer to match with candidates</h1>
+          <h2>BETA version, match with selected and proven candidates!</h2>
           </div>
         </div>
         <div className="header-subtitle">
