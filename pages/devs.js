@@ -23,12 +23,12 @@ const Devs = () => {
         <div className="header">
           <div className="header-title">
             <h1>Send your LinkedIn profile and get matching job offers on your email</h1>
-            <h2>BETA version, swiping coming soon!</h2>
+            <h2>Send your profile and GitHub to profiles@wizcv.xyz</h2>
           </div>
         </div>
         <div className="header-subtitle">
           <h2>Go to your LinkedIn profile, click &ldquo;More&ldquo; then click on &ldquo;Save to PDF&ldquo; and bring your profile to WizCV</h2>
-          <h2>During Beta, find jobs at selected employers by sending your PDF profile and GitHub URL to profiles@wizcv.xyz to start getting job offers in your mail, right away</h2>
+          <h2>BETA version, swiping coming soon!</h2>
       </div>
     </div>
       
