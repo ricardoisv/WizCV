@@ -11,7 +11,7 @@ const Devs = () => {
   {
     return(
         <div>
-            <p>Welcome {session.user.name}</p>
+            {/* <p>Welcome {session.user.name}</p> */}
         <div>
             <button onClick={() => signOut()}>Sign out</button>
         </div>
@@ -29,7 +29,7 @@ const Devs = () => {
           <h2>To do that, go to your LinkedIn profile, click "More" then click on "Save to PDF" and bring your profile to WizCV</h2>
           <h2>Currently, PDF upload is under construction, send your PDF profile and GitHub URL to profiles@wizcv.xyz to start getting job offers in your mail, right away</h2>
       </div>
-        </div>
+    </div>
       
     <div className="badge-container grow">
         <a href="https://www.linkedin.com/company/wizcv/" target="_blank" rel="noreferrer"/>
