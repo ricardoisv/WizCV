@@ -32,12 +32,12 @@ export default function Home() {
             </h1>
           </div>
         </div>
-        <h2 className={styles.subtext}>Unlock remote job opportunities by matching your profile with potential employers.</h2>
-       <a target="_blank" rel='noreferrer' href="http://localhost:3000/App"><button className={styles.card}>Devs onClick = (getJob) </button></a>
-       <a target="_blank" rel='noreferrer' href="https://wizcv.xyz/App/"><button className={styles.card}>Publish job offers </button></a>
-       <a target="_blank" rel='noreferrer' href="https://wizcv.xyz/App/"><button className={styles.card}>Generate my own Resume </button></a>        
+        <h2 className={styles.subtext}>Unlock job opportunities by matching your profile with potential employers.</h2>
+       <a target="_blank" rel='noreferrer' href="https://wizcv.xyz/devs/"><button className={styles.card}>Devs onClick = (getJob) </button></a>
+       <a target="_blank" rel='noreferrer' href="https://wizcv.xyz/publish/"><button className={styles.card}>Publish job offers </button></a>
+       <a target="_blank" rel='noreferrer' href="https://wizcv.xyz/devs/App/"><button className={styles.card}>Generate my own Resume </button></a>        
        <div className={styles.footer}>
-          <p>Mty, Nuevo León, México | Email: info@wizcv.xyz</p>
+          <p>Made by Ricardo Sandoval | Email: info@wizcv.xyz</p>
           <p>Copyright © 2023 WizCV</p>
         </div>
       </main>

@@ -22,12 +22,12 @@ const Publish = () => {
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>Upload your LinkedIn profile and get remote job offers</h1>
+          <h1>Upload the job offer to match with candidates</h1>
+          <h2>BETA version, automatization coming soon!</h2>
           </div>
         </div>
         <div className="header-subtitle">
-          <h2>To do that, go to your LinkedIn profile, click &ldquo;More&ldquo; then click on &ldquo;Save to PDF&ldquo; and bring your profile to WizCV</h2>
-          <h2>Currently, PDF upload is under construction, send your PDF profile and GitHub URL to profiles@wizcv.xyz to start getting job offers in your mail, right away</h2>
+          <h2>During the Beta version, send the job offer to offers@wizcv.xyz</h2>
       </div>
     </div>
       
