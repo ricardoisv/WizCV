@@ -7,8 +7,8 @@ const Devs = () => {
   const {data:session,status} =useSession();
   
  
-  if(status==='authenticated')
-  {
+ // if(status==='authenticated')
+ // {
     return(
         <div>
             {/* <p>Welcome {session.user.name}</p> */}
@@ -43,15 +43,16 @@ const Devs = () => {
     </div>
     )
   }
-  else
-  {      return(
-      <div className="root">
-          <p className="header"> You are not signed in yet!</p>
-          <button onClick={() => signIn()}>Sign in</button>
-      </div>)
-  }
+  // else
+  // {      return(
+  //     <div className="root">
+  //         <p className="header"> You are not signed in yet!</p>
+  //         <button onClick={() => signIn()}>Sign in</button>
+  //     </div>)
+  // }
 
 
-};
+//}
+;
 
 export default Devs;
