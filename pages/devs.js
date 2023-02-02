@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import LinkedIn from '../assets/LinkedIn.png';
-import { signIn,useSession,signOut,getSession } from "next-auth/react"
+//import { signIn,useSession,signOut,getSession } from "next-auth/react"
 
 const Devs = () => {
 //  const {data:session,status} =useSession();
