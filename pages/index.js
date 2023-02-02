@@ -19,10 +19,10 @@ export default function Home() {
         <div className={styles.oneliner}>
           <div className={styles.center}>
             <h1>
-              Get a dev remote job by uploading
+              Tinder for jobs.
             <Typewriter
             options={{
-              strings: ['your LinkedIn profile.    ', 'your resume.    ', 'a PDF.    '],
+              strings: ['Upload your LinkedIn profile.    '],
               autoStart: true,
               loop: true,
               wrapperClassName: `${styles.gradienttext}`,
@@ -32,8 +32,8 @@ export default function Home() {
             </h1>
           </div>
         </div>
-        <h2 className={styles.subtext}>Unlock remote job opportunities by matching your profile with potential remote employers. Like Bumble for jobs.</h2>
-       <a target="_blank" rel='noreferrer' href="https://wizcv.xyz/App/"><button className={styles.card}>Devs onClick = (getJob) </button></a>
+        <h2 className={styles.subtext}>Unlock remote job opportunities by matching your profile with potential employers.</h2>
+       <a target="_blank" rel='noreferrer' href="http://localhost:3000/App"><button className={styles.card}>Devs onClick = (getJob) </button></a>
        <a target="_blank" rel='noreferrer' href="https://wizcv.xyz/App/"><button className={styles.card}>Publish job offers </button></a>
        <a target="_blank" rel='noreferrer' href="https://wizcv.xyz/App/"><button className={styles.card}>Generate my own Resume </button></a>        
        <div className={styles.footer}>

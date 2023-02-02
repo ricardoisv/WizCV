@@ -9,20 +9,32 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@adobe/pdfservices-node-sdk": "^3.2.0",
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
+    "@react-pdf-viewer/core": "^3.11.0",
+    "@react-pdf-viewer/default-layout": "^3.11.0",
     "analytics-node": "^6.2.0",
     "eslint": "8.27.0",
     "eslint-config-next": "13.0.3",
     "firebase": "^9.15.0",
     "framer-motion": "^6.5.1",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^11.1.0",
     "next": "^13.1.5",
     "next-auth": "^4.18.10",
     "next-google-fonts": "^2.2.0",
     "openai": "^3.1.0",
+    "pdfreader": "^3.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-pdf-viewer": "^0.1.0",
     "typewriter": "^8.0.10",
     "typewriter-effect": "^2.19.0"
+  },
+  "browser": {
+    "fs": false,
+    "os": false,
+    "path": false
   }
 }

@@ -5,7 +5,7 @@ export default function Document() {
     <Html>
       <Head>
         <meta property="og:title" content="WizCV" key="title"/>
-        <meta property="og:description" content="Genera tu CV" key="description"/>
+        <meta property="og:description" content="Get a remote job" key="description"/>
         <meta
           property="og:image"
           content=""
