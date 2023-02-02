@@ -27,7 +27,7 @@ const Publish = () => {
         </div>
         <div className="header-subtitle">
           <h2>To do that, go to your LinkedIn profile, click More then click on Save to PDF and bring your profile to WizCV</h2>
-          <h2>Currently, PDF upload is under construction, send your PDF profile and GitHub URL to profiles@wizcv.xyz to start getting job offers in your mail, right away</h2>
+          <h2>Currently, PDF upload is under construction, send your PDF profile and GitHub URL to profiles at wizcv.xyz to start getting job offers in your mail, right away</h2>
       </div>
     </div>
       
