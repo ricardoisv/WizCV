@@ -27,7 +27,7 @@ const Publish = () => {
           </div>
         </div>
         <div className="header-subtitle">
-          <h2>During the Beta version, send the job offer to offers@wizcv.xyz, once they&apos;re interested, you&apos;ll get matching candidates on your email</h2>
+          <h2>During the Beta version, send the job offer to profiles@wizcv.xyz, once they&apos;re interested, you&apos;ll get matching candidates on your email</h2>
       </div>
     </div>
       

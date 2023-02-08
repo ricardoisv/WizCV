@@ -33,8 +33,8 @@ export default function Home() {
           </div>
         </div>
         <h2 className={styles.subtext}>Unlock job opportunities by matching your profile with potential employers.</h2>
-       <a target="_blank" rel='noreferrer' href="https://wizcv.vercel.app/devs/"><button className={styles.card}>Devs onClick = (getJob) </button></a>
-       <a target="_blank" rel='noreferrer' href="https://wizcv.vercel.app/publish/"><button className={styles.card}>Publish job offers </button></a>
+       <a target="_blank" rel='noreferrer' href="https://wizcv.xyz/devs/"><button className={styles.card}>Devs onClick = (getJob) </button></a>
+       <a target="_blank" rel='noreferrer' href="https://wizcv.xyz/publish/"><button className={styles.card}>Publish job offers </button></a>
        <div className={styles.footer}>
           <p>Made by Ricardo Sandoval | Email: info@wizcv.xyz</p>
           <p>Copyright © 2023 WizCV</p>
